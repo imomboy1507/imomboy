@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.li{
+    list-style-type: none;
+    font-size: 20px;
+    margin: 8px 0;
+}
+.box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box input{
+    width: 60%;
+    padding: 22px 7px;
+    height: 5vh;
+    margin: auto;
+    margin-top: 40px;
+}
+.btn{
+    padding: 20px 50px;
+    border: none;
+    border-radius: 10px;
+    background: orange;
+    color: white;
+    font-size: 17px;
+    margin: 50px 670px;
+    cursor: pointer;
+}
